@@ -3,33 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Advanced2 | TypeScript入门</title>
+    <title>Advanced2 | 靳强的博客</title>
     <meta name="generator" content="VuePress 1.8.2">
     
-    <meta name="description" content="学习使用TypeScript">
+    <meta name="description" content="靳强的博客">
     
-    <link rel="preload" href="/ts-study/assets/css/0.styles.7af69814.css" as="style"><link rel="preload" href="/ts-study/assets/js/app.c8b96988.js" as="script"><link rel="preload" href="/ts-study/assets/js/2.1f3fb73b.js" as="script"><link rel="preload" href="/ts-study/assets/js/10.37aa924b.js" as="script"><link rel="prefetch" href="/ts-study/assets/js/11.ec70ddca.js"><link rel="prefetch" href="/ts-study/assets/js/12.1bd4040d.js"><link rel="prefetch" href="/ts-study/assets/js/3.bdcdcb1d.js"><link rel="prefetch" href="/ts-study/assets/js/4.86b5ab71.js"><link rel="prefetch" href="/ts-study/assets/js/5.e3b2e945.js"><link rel="prefetch" href="/ts-study/assets/js/6.4200871d.js"><link rel="prefetch" href="/ts-study/assets/js/7.122b3a05.js"><link rel="prefetch" href="/ts-study/assets/js/8.3f55af75.js"><link rel="prefetch" href="/ts-study/assets/js/9.6ff9e623.js">
-    <link rel="stylesheet" href="/ts-study/assets/css/0.styles.7af69814.css">
+    <link rel="preload" href="/assets/css/0.styles.304d2e8d.css" as="style"><link rel="preload" href="/assets/js/app.705dcfeb.js" as="script"><link rel="preload" href="/assets/js/2.1f3fb73b.js" as="script"><link rel="preload" href="/assets/js/10.f0a96163.js" as="script"><link rel="prefetch" href="/assets/js/11.1c7b7bb9.js"><link rel="prefetch" href="/assets/js/12.f82da052.js"><link rel="prefetch" href="/assets/js/3.e346cda0.js"><link rel="prefetch" href="/assets/js/4.dc944168.js"><link rel="prefetch" href="/assets/js/5.e3b2e945.js"><link rel="prefetch" href="/assets/js/6.4200871d.js"><link rel="prefetch" href="/assets/js/7.af94d955.js"><link rel="prefetch" href="/assets/js/8.9c0caca2.js"><link rel="prefetch" href="/assets/js/9.6ff9e623.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.304d2e8d.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/ts-study/" class="home-link router-link-active"><!----> <span class="site-name">TypeScript入门</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/ts-study/apiword.html" class="nav-link">
-  接口定义
-</a></div><div class="nav-item"><a href="/ts-study/api.html" class="nav-link">
-  接口字段定义
-</a></div><div class="nav-item"><a href="/ts-study/error.html" class="nav-link">
-  附录：错误码
-</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/ts-study/apiword.html" class="nav-link">
-  接口定义
-</a></div><div class="nav-item"><a href="/ts-study/api.html" class="nav-link">
-  接口字段定义
-</a></div><div class="nav-item"><a href="/ts-study/error.html" class="nav-link">
-  附录：错误码
-</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>栏目1</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ts-study/guide/chapter1/" class="sidebar-link">Introduction</a></li><li><a href="/ts-study/guide/chapter1/01_初识TS.html" class="sidebar-link">Advanced</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>栏目2</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ts-study/guide/chapter2/01_初识TS.html" class="active sidebar-link">Advanced2</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ts-study/guide/chapter2/01_初识TS.html#pager1" class="sidebar-link">pager1</a></li><li class="sidebar-sub-header"><a href="/ts-study/guide/chapter2/01_初识TS.html#page2" class="sidebar-link">page2</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="advanced2"><a href="#advanced2" class="header-anchor">#</a> Advanced2</h1> <div class="custom-block danger"><p class="custom-block-title">STOP</p> <p>危险区域，禁止通行</p></div> <details class="custom-block details"><summary>点击查看代码</summary> <div class="language-js line-numbers-mode"><pre class="language-js"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'你好，VuePress！'</span><span class="token punctuation">)</span>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">靳强的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide.html" class="nav-link">
+  tool
+</a></div><div class="nav-item"><a href="/guide.html" class="nav-link">
+  xbot
+</a></div><div class="nav-item"><a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide.html" class="nav-link">
+  tool
+</a></div><div class="nav-item"><a href="/guide.html" class="nav-link">
+  xbot
+</a></div><div class="nav-item"><a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  百度
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>栏目1</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/chapter1/" class="sidebar-link">Introduction</a></li><li><a href="/guide/chapter1/01_初识TS.html" class="sidebar-link">Advanced</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>栏目2</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/chapter2/01_初识TS.html" class="active sidebar-link">Advanced2</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/chapter2/01_初识TS.html#pager1" class="sidebar-link">pager1</a></li><li class="sidebar-sub-header"><a href="/guide/chapter2/01_初识TS.html#page2" class="sidebar-link">page2</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="advanced2"><a href="#advanced2" class="header-anchor">#</a> Advanced2</h1> <div class="custom-block danger"><p class="custom-block-title">STOP</p> <p>危险区域，禁止通行</p></div> <details class="custom-block details"><summary>点击查看代码</summary> <div class="language-js line-numbers-mode"><pre class="language-js"><code>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'你好，VuePress！'</span><span class="token punctuation">)</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></details> <h2 id="pager1"><a href="#pager1" class="header-anchor">#</a> pager1</h2> <h2 id="page2"><a href="#page2" class="header-anchor">#</a> page2</h2></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
-      <a href="/ts-study/guide/chapter1/01_初识TS.html" class="prev">
+      <a href="/guide/chapter1/01_初识TS.html" class="prev">
         Advanced
       </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/ts-study/assets/js/app.c8b96988.js" defer></script><script src="/ts-study/assets/js/2.1f3fb73b.js" defer></script><script src="/ts-study/assets/js/10.37aa924b.js" defer></script>
+    <script src="/assets/js/app.705dcfeb.js" defer></script><script src="/assets/js/2.1f3fb73b.js" defer></script><script src="/assets/js/10.f0a96163.js" defer></script>
   </body>
 </html>

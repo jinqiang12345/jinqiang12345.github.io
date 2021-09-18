@@ -1,13 +1,12 @@
 module.exports = {
-    base: '/ts-study/',
     dest: 'dist',
-    title: 'TypeScript入门',
-    description: '学习使用TypeScript',
+    title: '靳强的博客',
+    description: '靳强的博客',
     themeConfig: {
         nav: [
-            { text: '接口定义', link: '/apiword' },
-            { text: '接口字段定义', link: '/api' },
-            { text: '附录：错误码', link: '/error' }
+            { text: 'tool', link: '/guide' },
+            { text: 'xbot', link: '/guide' },
+            { text: '百度', link: 'https://www.baidu.com/' }
         ],
         sidebar: {
             '/guide/': [{
