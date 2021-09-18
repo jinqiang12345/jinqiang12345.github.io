@@ -1,5 +1,6 @@
 module.exports = {
     dest: 'dist',
+    base: './',
     title: '靳强的博客',
     description: '靳强的博客',
     themeConfig: {
